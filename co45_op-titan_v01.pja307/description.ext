@@ -15,7 +15,6 @@ author="[TTT] Theylok";
 OnLoadName = "Operation Titan";
 onLoadMission = "Sichern Sie Mizzdah und die umliegenden Ölfelder.";
 loadScreen = "pictures\loadScreen.jpg";
-overviewPicture = "pictures\loadScreen.jpg";
 
 #include "W_Teleporter\dialog.hpp"
 class CfgFunctions
