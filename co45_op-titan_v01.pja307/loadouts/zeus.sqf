@@ -17,12 +17,9 @@ player forceAddUniform "rhs_uniform_cu_ocp";
 player addVest "rhsusf_iotv_ocp_Rifleman";
 player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";
 
-// Backpack
-player addBackpack "B_UAV_01_backpack_F";
-
 // Head
 player addHeadgear "rhsusf_patrolcap_ocp";
-player addGoggles "G_Sport_Blackred";
+player addGoggles "G_Shades_Red";
 
 // Weapons
 player addWeapon "rhs_weap_m4a1_carryhandle_grip2";
