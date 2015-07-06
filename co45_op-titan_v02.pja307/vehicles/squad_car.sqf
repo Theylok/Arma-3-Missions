@@ -17,3 +17,5 @@ _vehicle addMagazineCargoGlobal ["rhs_mag_m18_purple", 10];
 _vehicle addMagazineCargoGlobal ["rhs_mag_m18_yellow", 10];
 _vehicle addItemCargoGlobal ["Chemlight_green", 10];
 _vehicle addItemCargoGlobal ["Chemlight_blue", 10];
+
+_vehicle addItemCargoGlobal ["DemoCharge_Remote_Mag", 3];
