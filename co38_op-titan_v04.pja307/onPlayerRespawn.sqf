@@ -2,7 +2,6 @@ switch toLower (player getVariable ["loadout", ""]) do
 {
 	// OPL
 	case ("opl"):			{_null = [] execVM "loadouts\opl.sqf";};
-	case ("opl_uav"):		{_null = [] execVM "loadouts\opl_uav.sqf";};
 	
 	// Infantry Squads
 	case ("squadleader"):	{_null = [] execVM "loadouts\squadleader.sqf";};
@@ -11,8 +10,14 @@ switch toLower (player getVariable ["loadout", ""]) do
 	case ("teamleader"):	{_null = [] execVM "loadouts\teamleader.sqf";};
 	case ("autorifleman"):	{_null = [] execVM "loadouts\autorifleman.sqf";};
 	case ("grenadier"):		{_null = [] execVM "loadouts\grenadier.sqf";};
-	case ("marksman"):		{_null = [] execVM "loadouts\marksman.sqf";};
 	case ("rifleman"):		{_null = [] execVM "loadouts\rifleman.sqf";};
+	case ("mg_assistent"):	{_null = [] execVM "loadouts\mg_assistent.sqf";};
+	case ("mg_gunner"):		{_null = [] execVM "loadouts\mg_gunner.sqf";};
+	
+	// Spectre
+	case ("fo_teamleader"):	{_null = [] execVM "loadouts\fo_teamleader.sqf";};
+	case ("fo_marksman"):	{_null = [] execVM "loadouts\fo_marksman.sqf";};
+	case ("fo_uav"):		{_null = [] execVM "loadouts\fo_uav.sqf";};
 	
 	// Tank Crew
 	case ("tank_commander"):{_null = [] execVM "loadouts\tank_commander.sqf";};
@@ -22,7 +27,7 @@ switch toLower (player getVariable ["loadout", ""]) do
 	// MedEvac & Logistics
 	case ("pilot"):			{_null = [] execVM "loadouts\pilot.sqf";};
 	case ("airmedic"):		{_null = [] execVM "loadouts\airmedic.sqf";};
-	case ("logistics"):		{_null = [] execVM "loadouts\opl.sqf";};
+	case ("logistics"):		{_null = [] execVM "loadouts\logistics.sqf";};
 	
 	// Misc
 	case ("zeus"):			{_null = [] execVM "loadouts\zeus.sqf";};
