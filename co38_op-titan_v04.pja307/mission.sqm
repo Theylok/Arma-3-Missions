@@ -362,6 +362,7 @@ class Mission
 					id=3;
 					side="CIV";
 					vehicle="C_man_p_fugitive_F_euro";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="zeus1";
@@ -550,7 +551,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_1_1";
 					init="this stop true; this setVariable [""loadout"", ""teamleader""];";
-					description="Minion 1-1: Truppführer";
+					description="Minion Alpha 1: Truppführer";
 					syncId=4;
 					synchronizations[]={20,29};
 				};
@@ -566,7 +567,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_1_2";
 					init="this stop true; this setVariable [""loadout"", ""grenadier""];";
-					description="Minion 1-2: Grenadier";
+					description="Minion Alpha 2: Grenadier";
 				};
 				class Item2
 				{
@@ -579,7 +580,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_1_3";
 					init="this stop true; this setVariable [""loadout"", ""autorifleman""];";
-					description="Minion 1-3: leichtes MG";
+					description="Minion Alpha 3: leichtes MG";
 				};
 				class Item3
 				{
@@ -592,7 +593,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_1_4";
 					init="this stop true; this setVariable [""loadout"", ""rifleman""];";
-					description="Minion 1-4: AT-Schütze";
+					description="Minion Alpha 4: AT-Schütze";
 				};
 			};
 		};
@@ -615,7 +616,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_2_1";
 					init="this stop true; this setVariable [""loadout"", ""teamleader""];";
-					description="Minion 2-1: Truppführer";
+					description="Minion Bravo 1: Truppführer";
 					syncId=5;
 					synchronizations[]={18,28};
 				};
@@ -631,7 +632,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_2_2";
 					init="this stop true; this setVariable [""loadout"", ""grenadier""];";
-					description="Minion 2-2: Grenadier";
+					description="Minion Bravo 2: Grenadier";
 				};
 				class Item2
 				{
@@ -644,7 +645,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_2_3";
 					init="this stop true; this setVariable [""loadout"", ""autorifleman""];";
-					description="Minion 2-3: leichtes MG";
+					description="Minion Bravo 3: leichtes MG";
 				};
 				class Item3
 				{
@@ -657,7 +658,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_2_4";
 					init="this stop true; this setVariable [""loadout"", ""rifleman""];";
-					description="Minion 2-4: AT-Schütze";
+					description="Minion Bravo 4: AT-Schütze";
 				};
 			};
 		};
@@ -680,7 +681,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_3_1";
 					init="this stop true; this setVariable [""loadout"", ""teamleader""];";
-					description="Minion 3-1: Truppführer";
+					description="Minion Charlie 1: Truppführer";
 					syncId=6;
 					synchronizations[]={22,31};
 				};
@@ -696,7 +697,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_3_2";
 					init="this stop true; this setVariable [""loadout"", ""grenadier""];";
-					description="Minion 3-2: Grenadier";
+					description="Minion Charlie 2: Grenadier";
 				};
 				class Item2
 				{
@@ -709,7 +710,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_3_3";
 					init="this stop true; this setVariable [""loadout"", ""mg_assistent""];";
-					description="Minion 3-3: MG-Assistent";
+					description="Minion Charlie 3: MG-Assistent";
 				};
 				class Item3
 				{
@@ -722,7 +723,7 @@ class Mission
 					skill=0.60000002;
 					text="minion_3_4";
 					init="this stop true; this setVariable [""loadout"", ""mg_gunner""];";
-					description="Minion 3-4: MG-Schütze";
+					description="Minion Charlie 4: MG-Schütze";
 				};
 			};
 		};
@@ -4772,7 +4773,7 @@ class Mission
 					id=213;
 					side="WEST";
 					vehicle="rhsusf_army_ocp_marksman";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="spectre_2";
