@@ -1,4 +1,4 @@
-// Commanding Officer loudout by Theylok
+// Tank Radio Operator loudout by Theylok
 
 // Remove existing items
 removeAllWeapons player;
@@ -21,30 +21,20 @@ player addItemToUniform "cse_morphine";
 player addItemToUniform "cse_m_tablet";
 
 // Vest
-player addVest "rhsusf_iotv_ocp_Rifleman";
-player addItemToVest "rhsusf_acc_EOTECH";
-for "_i" from 1 to 7 do {player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
-for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_m67";};
-player addItemToVest "rhs_mag_m18_green";
-player addItemToVest "rhs_mag_m18_red";
-for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_m18_purple";};
-player addItemToVest "rhs_mag_m18_yellow";
-player addItemToVest "Chemlight_green";
-player addItemToVest "rhsusf_patrolcap_ocp";
+player addVest "rhsusf_iotv_ocp";
+for "_i" from 1 to 2 do {player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
+player addItemToVest "rhs_mag_m18_purple";
 
 // Backpack
-player addBackpack "tf_rt1523g_big_rhs";
-for "_i" from 1 to 5 do {player addItemToBackpack "rhs_mag_m713_Red";};
-for "_i" from 1 to 5 do {player addItemToBackpack "rhs_mag_m714_White";};
-for "_i" from 1 to 5 do {player addItemToBackpack "rhs_mag_m715_Green";};
+player addBackpack "tf_rt1523g_rhs";
 
 // Head
-player addHeadgear "rhsusf_ach_helmet_ocp";
+player addHeadgear "rhsusf_cvc_helmet";
 player addGoggles "rhs_googles_black";
 
 // Weapons
-player addWeapon "rhs_weap_m4a1_carryhandle_m203";
-player addPrimaryWeaponItem "rhsusf_acc_ACOG";
+player addWeapon "rhs_weap_m4a1_carryhandle";
+player addPrimaryWeaponItem "rhsusf_acc_EOTECH";
 player addWeapon "rhsusf_weap_m1911a1";
 player addWeapon "lerca_1200_tan";
 
