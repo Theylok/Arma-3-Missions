@@ -1,4 +1,6 @@
 /*
 !.gitignore
-!/co38_op-titan_v03.pja307
 !/co38_op-titan_v04.pja307
+!/co10_zeus-template_v01.Stratis
+
+*.db

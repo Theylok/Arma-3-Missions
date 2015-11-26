@@ -1,0 +1,23 @@
+﻿class Header
+{
+    gameType = Coop;
+    minPlayers = 1; 
+    maxPlayers = 10;
+};
+
+respawn = "BASE";
+respawnDelay = 15;
+respawnDialog = 0;
+joinUnassigned = 1;
+
+OnLoadMissionTime = 1;
+author="Theylok";
+OnLoadName = "Zeus Template v01";
+onLoadMission = "";
+loadScreen = "";
+
+#include "CHVD\dialog.hpp"
+class CfgFunctions
+{
+	#include "CHVD\CfgFunctions.hpp"
+};
