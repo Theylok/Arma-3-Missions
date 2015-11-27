@@ -12,7 +12,7 @@ joinUnassigned = 1;
 
 OnLoadMissionTime = 1;
 author="Theylok";
-OnLoadName = "Zeus Template v01";
+OnLoadName = "Zeus Template v1.1";
 onLoadMission = "";
 loadScreen = "";
 
