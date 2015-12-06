@@ -2,5 +2,6 @@
 !.gitignore
 !/co38_op-titan.pja307
 !/co10_zeus-template.Stratis
+!/co10_zeus-template.Altis
 
 *.db
